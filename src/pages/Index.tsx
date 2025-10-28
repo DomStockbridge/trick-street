@@ -6,7 +6,7 @@ import { Search } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const Index = () => {
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState(""); 
   const navigate = useNavigate();
   
   const filteredTricks = searchQuery ? searchTricks(searchQuery) : tricksDatabase;
