@@ -16,8 +16,8 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8 md:py-12">
         <header className="text-center mb-12 space-y-4">
           <h1 className="text-5xl md:text-7xl font-black tracking-tight">
-            <span className="text-foreground">TRICK</span>
-            <span className="text-accent">DECK</span>
+            <span className="text-foreground">Title</span>
+            <span className="text-accent">Change</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Your ultimate skateboarding tricks encyclopedia. Search, learn, and progress.
